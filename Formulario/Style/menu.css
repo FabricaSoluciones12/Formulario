@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #0A0A85;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #8c8cdd00;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+}
+.faseP{
+    background: rgb(97,190,255);
+    background: linear-gradient(90deg, rgba(97,190,255,0.4285422787278974) 28%, rgba(155,251,255,0.4593546036578694) 100%);   
+    font-size: calc(0.1em + 1vw);
+}
+.faseE{
+    background: rgb(188,119,207);
+    background: linear-gradient(90deg, rgba(188,119,207,0.5770016624813988) 26%, rgba(249,178,255,0.48456468769148286) 67%);
+}
+.faseA{
+    accent-color:  rgb(246,255,173);
+    font-size: calc(0.1em + 1vw);
+}
+.fondo{
+    background-image: url("../assets/img/FondoUe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #fff;
+    max-width: 100%;
+}
+.faseA{
+    background: rgb(246,255,173);
+ background: linear-gradient(90deg, rgba(246,255,173,0.7796160700608368) 19%, rgba(207,214,151,0.5919410000328256) 100%);
+}
+.radioButtonA{
+   accent-color:  rgb(246,255,173);
+}
+.radioButtonE{
+    accent-color: rgb(97, 189, 255, 0.783);
+}
+.radioButtonP{
+    accent-color:  rgb(188,119,207);
+}
+.paginacion{
+    margin: 20px 0;
+}
+.paginacion ul {
+    list-style: none;
+    text-align: center;
+}
+.paginacion ul li{
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.paginacion ul li a{
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #0A0A85;
+    text-decoration: none;
+}
+.paginacion ul li a:hover{
+    background: aqua;
+}
+.paginacion ul li.active{
+    background: aqua;
+    font-weight: bold;
+}

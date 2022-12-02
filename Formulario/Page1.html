@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/Formulario.css">
+    <link rel="stylesheet" href="./Style/menu.css">
+    <link rel="stylesheet" href="./Style/parallax.css">
+    <title>Page 1</title>
+</head>
+<body class="fondo">
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="#" class="enlace">
+                <img src="/Formulario/assets/img/LogoUni.jpg" alt="" class="logo">
+            </a>
+            <ul>
+                <li><a class="active" href="#">Formulario General de ingreso</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+      <div class="contenedor">
+        <article>
+            <p>
+                <h2>Academico</h2><hr>
+                <form action="" class="formulario">
+                    <label for="">¿Conoces la forma en que te es más fácil aprender?</label>
+                    <label style="margin-left: 15px;" for="si">Si</label>
+                    <input type="radio" class="radioButtonA" name="P16" required>
+                    <label for="no">No</label>
+                    <input type="radio" name="P16" class="radioButtonA" required><br><br>
+                
+                    <label for="">¿Organizas tu tiempo y priorizas tus tareas?</label>
+                    <label style="margin-left: 15px;" for="Si">Si</label>
+                    <input type="radio" name="P17" class="radioButtonA" required>
+                    <label for="No">No</label>
+                    <input type="radio" name="P17" class="radioButtonA" required><br><br>
+
+                  <label for="">¿Te sientes motivado a la hora de estudiar?</label>
+                    <label style="margin-left: 15px;" for="Si">Si</label>
+                    <input type="radio" name="P18" class="radioButtonA" required>
+                    <label for="No">No</label>
+                    <input type="radio" name="P18" class="radioButtonA" required><br><br>
+
+                    <label for="">En tus proceso académicos anteriores ¿Qué tan cansado te has sentido con la exigencia?</label>
+                    <select style="margin-left: 20px;" name="Nivel exigencia" class="faseA" required>
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                     <option value="3">3</option>
+                     <option value="4">4</option>
+                     <option value="5">5</option>
+                  </select><br><br>
+                
+                    <label for=""> ¿Cuáles fueron los motivos por los que elegiste estudiar en UniEm?</label><br>
+                    <article>
+                    <label for="R1">Valor matricula</label>
+                    <input type="radio" class="radioButtonE" name="P19" value="Valor" required><br>
+                    <label for="R2">Recomendación de un familiar/amigo</label>
+                <input type="radio" class="radioButtonA" name="P19"required> <br>
+                <label for="R3">Tiempo que dura la carrera</label>
+                <input type="radio" class="radioButtonA" name="P19" value="Tiempo que dura la carrera" required><br>
+                <label for="R4">Tiempo que dura la carrera</label>
+                <input type="radio" class="radioButtonA" name="P19" required><br>
+                <label for="R5">Por las instalaciones</label>
+                <input type="radio" name="P19" class="radioButtonA" required><br>
+                <label for="R6">Por la cercanía a mi casa</label>
+                <input type="radio" name="P19" class="radioButtonP" required><br>
+                <label for="R7">Nivel académico</label>
+                <input type="radio" name="P19" class="radioButtonA" required><br>
+                <label for="R8">Practicas Emes</label>
+                <input type="radio" name="P19" class="radioButtonE" required><br>
+                <label for="R9">Reconocimiento</label>
+                <input type="radio" name="P19" class="radioButtonA" required><br><br>
+            </article>
+                <label for="">¿Cuáles  de las siguientes redes sociales usas para recibir información sobre UniEm?</label>
+                <select name="red social" class="faseI" required>
+                    <option value="">Opciones</option>
+                    <option value="1">Facebook</option>
+                    <option value="2">Instagram</option>
+                    <option value="3">WhatsApp</option>
+                    <option value="4">LinkedIn</option>
+                    <option value="5">Twitter</option>
+                    <option value="6">Youtube</option>
+                    <option value="7">Correo electrónico</option>
+                    <option value="8">Ninguna</option>
+                </select><br>
+
+                <label for="">¿Qué crees que destaca a UniEm?</label><br>
+                <label for="R1">Valor matrícula</label>
+                <input type="radio" name="P21" class="radioButtonE" required><br>
+                <label for="R2">Tiempo que dura la carrera</label>
+                <input type="radio" name="P21" class="radioButtonA" required><br>
+                <label for="R3">Instalaciones</label>
+                <input type="radio" name="P21" class="radioButtonA" required><br>
+                <label for="R4">Nivel A</label>
+                <input type="radio" name="P21" class="radioButtonA" required><br>
+                <label for="R5">Prácticas Emes</label>
+                <input type="radio" name="P21" class="radioButtonA" required><br>
+                <label for="R6">Reconocimiento</label>
+                <input type="radio" name="P21" class="radioButtonA" required><br><br>
+
+                <label for="">¿Qué tan a gusto te encuentras hasta el momento con  la atención recibida en Uniempresarial en cuanto a los siguientes aspectos?</label><br><br>
+
+                <input type="text" name="P22"class="faseA" placeholder="Ingrese su respuesta"><br><br>
+
+                <label for="">¿Qué tan a gusto te encuentras hasta el momento con  la atención recibida en Uniempresarial en cuanto a los siguientes aspectos?</label><br>
+
+                <label for="P22.1">Amabilidad y calidez</label>
+                <select name="calificacion" class="radioButtonI" required>
+                    <option value="">Opciones</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+                <label for="22.2">Resolución de problemas</label>
+                <select name="calificacion" class="radioButtonI" required>
+                    <option value="">Opciones</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+                <label for="22.3">Información oportuna y completa</label>
+                <select name="calificacion" class="selectButtonI" required>
+                    <option value="">Opciones</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+                <label for="21.4">Empatía ( Comprende mi situación y busca ayudarme)</label>
+                <select name="calificacion" class="selectButtonI" required>
+                    <option value="">Opciones</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select><br><br>
+
+                <label for=""> ¿En anteriores procesos educativos recibiste apoyo académico adicional al ofrecido por la institución  ?</label>
+                <label style="margin: left 15px; ;" for="Si">Si</label>
+                <input type="radio" name="P22" id="" class="radioButtonP" required>
+                <label for="No">No</label>
+                <input type="radio" name="P22" id="" class="radioButtonP" required><br><br>
+
+                <label for="">¿Te encuentras interesado en recibir apoyo académico adicional  como tutorías o asesorías por parte de los docentes o  directores del programa?</label>
+                <label style="margin-left: 15px;" for="Si">Si</label>
+                <input type="radio" name="P23" id="" class="radioButtonA" required>
+                <label for="No">No</label>
+                <input type="radio" name="P23" id="" class="radioButtonA" required><br><br>
+
+                <label for="">¿Consideras que los recursos físicos , las instalaciones y herramientas tecnológicas de UniEm son adecuadas para tu formación profesional?  </label>
+                <label style="margin-left: 15px;" for="Si">Si</label>
+                <input type="radio" name="P23.1" id="" class="radioButtonP" required>
+                <label for="No">No</label>
+                <input type="radio" name="P23.1" id="" class="radioButtonP" required><br><br>
+
+                <label for="">¿Sabias que Uniempresarial cuenta con opciones de financiamiento?</label>
+                <label style="margin-left: 15px;" for="Si">Si</label>
+                <input type="radio" name="P24" id="" class="radioButtonE" required>
+                <label for="No">No</label>
+                <input type="radio" name="P24" id="" class="radioButtonE" required><br><br>
+
+                <label for="">¿Te encuentras trabajando?</label>
+                <label for="Si">Si</label>
+                <input type="radio" name="P24.1" id="" class="radioButtonE" required>
+                <label for="No">No</label>
+                <input type="radio" name="P24.1" id="" class="radioButtonE" required><br><br>
+
+                <label for=""> ¿En qué tipo de vivienda habitas?</label>
+                <select style="margin-left: 15px;" name="P25" class="radioButtonE">
+                    <option value="">Opciones</option>
+                    <option value="1">Propia</option>
+                    <option value="2">Arriendo</option>
+                    <option value="3">Familiar</option>
+                </select><br><br>
+
+                <label for=""> ¿Dependes económicamente de otra persona?</label>
+                <label  style="margin-left: 15px;" for="Si">Si</label>
+                <input type="radio" name="P26" id="" class="radioButtonE" required>
+                <label for="No">No</label>
+                <input type="radio" name="P26" id="" class="radioButtonE" required><br><br>
+
+                <label for="">Indica de quién dependes económicamente</label>
+                <select name="P27" id="">
+                    <option value="">Opciones</option>
+                    <option value="1">Abuelos</option>
+                    <option value="2">Hermanos</option>
+                    <option value="3">Padre y/o Madre</option>
+                    <option value="4">Pareja</option>
+                    <option value="5">tios</option>
+                    <option value="6">Otro</option>
+                </select><br><br>
+
+                <label for="">¿Consideras que los recursos  de quien dependes económicamente son suficientes y estables?</label>
+                <label style="margin-left: 15px;" for="Si">Si</label>
+                <input type="radio" name="P28" id="" class="radioButtonE" required>
+                <label for="No">No</label>
+                <input type="radio" name="P28" id="" class="radioButtonE" required><br><br>
+
+                <label for="">¿Cuál de los siguientes miembros de tu familia ha logrado acceder* a una formación académico universitaria?</label>
+                <select name="P29" id="">
+                    <option value="">Opciones</option>
+                    <option value="1">Padre</option>
+                    <option value="2">Madre</option>
+                    <option value="3">Hermanos</option>
+                    <option value="4">Abuelo</option>
+                    <option value="5">Abuela</option>
+                    <option value="6">Ninguna</option>
+                </select><br><br>
+
+                <label for="">El nivel educativo de tu padre es: </label>
+                <select name="P30" id="">
+                    <option value="">Opciones</option>
+                    <option value="1">Primaria</option>
+                    <option value="2">Secundaria</option>
+                    <option value="3">Tecnico</option>
+                    <option value="4">Tecnologo</option>
+                    <option value="5">Universitario</option>
+                    <option value="6">Posgrado</option>
+                    <option value="7">No aplica</option>
+                </select><br><br>
+            </p>
+        </article>
+        </div>
+    </form>
+    <section class="paginacion">
+        <ul>
+            <li><a href="../Formulario/Formulario.html">1</a> </li>
+            <li><a  href="../Formulario/Page1.html">2</a></li>
+            <li><a href="../Formulario/page2.html">3</a></li>
+            <li><a href="../Formulario/Page3.html">4</a></li>
+        </ul>
+    
+       </section>
+      </div>
+
+
+    
+</body>
+</html>

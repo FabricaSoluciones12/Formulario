@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//Style/menu.css">
+    <link rel="stylesheet" href=".//Style/parallax.css">
+    <link rel="stylesheet" href="/Formulario.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <title>Formulario Uniempresarial</title>
+</head>
+<body class="fondo">
+    <header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <a href="#" class="enlace">
+            <img src=".//assets/img/LogoUni.jpg" alt="" class="logo">
+        </a>
+        <ul>
+            <li><a class="active" href="#">Formulario General de ingreso</a></li>
+            
+        </ul>
+    </nav>
+</header>
+<div class="contenedor">
+    <article>
+        <h2>Datos basicos</h2>
+        <hr>
+            <p>
+                <form action="" class="formulario">
+                    <div class="radio">
+                    <label for="fname">Nombre Completo:</label>
+                    <input class="faseP" type="text" id="fname" name="fname" value="" size="30" required>
+                    
+                    <label for="tdoc">Tipo de documento:</label >
+                    <label for="TI">TI</label>
+                    <input class="radioButtonE" type="radio" name="tdoc" id="TI" required>
+                    <label for="CC">CC</label>
+                    <input class="radioButtonE" type="radio" name="tdoc" id="CC" required>
+                    <label for="TE">TE</label>
+                    <input class="radioButtonE" type="radio" name="tdoc" id="TE" required>
+                    <label for="CE">CE</label>
+                    <input class="radioButtonE" type="radio" name="tdoc" id="CE" required>
+                    <br>
+                    <br>
+                    <label for="Ndoc">Numero de documento:</label>
+                    <input class="faseP" type="number" name="numerodoc" id="Ndoc" required>
+
+                    <select class="faseP inscrito" name="Programa Inscrito" required>
+                        <option value="">POR FAVOR SELECCIONE SU PROGRAMA INSCRITO</option>
+                        <option value="L">ADMINISTRACION DE EMPRESAS</option>
+                        <option value="M">ADMINISTRACION DE EMPRESAS COMERCIALES</option>
+                        <option value="X">ADMINISTRACION DE EMPRESAS INDUSTRIALES</option>
+                        <option value="J">ADMINISTRACION DE SERVICIOS</option>
+                        <option value="V">ADMINISTRACION TURISTICA</option>
+                        <option value="S">ADMINISTRACION AMBIENTAL</option>
+                        <option value="S">CONTADURIA PUBLICA</option>
+                        <option value="S">CONTADURIA PUBLICA Y FINANZAS INTERNACIONALES</option>
+                        <option value="S">DISEÑO DE PRODUCTO</option>
+                        <option value="S">ESPECIALIZACION EN ALTA GERENCIA</option>
+                        <option value="S">ESPECIALIZACION EN DIRECCION DE INDUSTRIA CREATIVA</option>
+                        <option value="S">ESPECIALIZACION EN DIRECCION POR COMPETENCIA DEL TALENTO HUMANO</option>
+                        <option value="S">ESPECIALIZACION EN FINANZAS Y NEGOCIOS INTERNACIONALES</option>
+                        <option value="S">ESPECIALIZACION EN MARKETING</option>
+                        <option value="S">FINANZAS Y COMERCIO EXTERIOR</option>
+                        <option value="S">INGENIERIA DE SOFTWARE</option>
+                        <option value="S">INGENIERIA INDUSTRIAL</option>
+                        <option value="S">MAESTRIA EN ADMINISTRACION DE NEGOCIOS - MBA</option>
+                        <option value="S">MARKETING Y LOGISTICA</option>
+                        <option value="S">NEGOCIOS INTERNACIONALES</option>
+                        <option value="S">NEGOCIOS Y RELACIONES INTERNACIONALES</option>
+                        <option value="S">TECNOLOGIA EN ADMINISTRACION DE EMPRESAS COMERCIALES</option>
+                        <option value="D">TECNOLOGIA EN PREVENCION Y MANEJO SOSTENIBLE DE RESIDUOS</option>
+                     </select>
+                
+            </p>
+            <p>
+                 <label for="correo">Correo Electronico:</label>
+                    <input class="faseP" type="email" id="correo" name="email" value="" size="30" placeholder="usuario14@example.com" required>
+                    
+                    <label for="Celular">Numero celular</label> 
+                    <input class="faseP" type="number" name="numero"id="celular" required> 
+            </p>
+    </article>
+   
+    <article>
+        <h3>Residencia</h3>
+        <hr>
+        <p>
+        <select class="faseP" name="Estracto socio Economico" required>
+            <option value="">Estrato socio Economico</option>
+            <option value="L">Estrato 1</option>
+            <option value="M">Estrato 2</option>
+            <option value="X">Estrato 3</option>
+            <option value="J">Estrato 4</option>
+            <option value="V">Estrato 5</option>
+            <option value="S">Estrato 6</option>
+         </select>
+         <select class="faseP" name="lugar de residencia" required>
+            <option value="">Lugar de residencia</option>
+            <option value="L">Bogota D.C</option>
+            <option value="M">Otro</option>
+        </select>
+     
+        <select class="faseP" name="Localidad residencia" required>
+            <option value="">Localidad</option>
+            <option value="1">Usaquén</option>
+            <option value="2">Chapinero</option>
+            <option value="3">Santa Fe</option>
+            <option value="4">San Cristobal</option>
+            <option value="5">Usme</option>
+            <option value="6">Tunjuelito</option>
+            <option value="7">Bosa</option>
+            <option value="8">Kennedy</option>
+            <option value="9">Fontibón</option>
+            <option value="10">Engativá</option>
+            <option value="11">Suba</option>
+            <option value="12">Barrios Unidos</option>
+            <option value="13">Teusaquillo</option>
+            <option value="14">Los Martires</option>
+            <option value="15">Antonio Nariño</option>
+            <option value="16">Puente Aranda</option>
+            <option value="17">La Candelaria</option>
+            <option value="18">Rafael Uribe Uribe</option>
+            <option value="19">Ciudad Bolivar</option>
+            <option value="20">Sumapaz</option>
+        </select>
+    </article>
+    
+    <article>
+        <h3>Edad y parentesco</h3>
+        <hr>
+        <select class="faseE" name="edad" required>
+            <option value="">Que edad tienes?</option>
+            <option value="1">Menor de 18</option>
+            <option value="2">18 a 25</option>
+            <option value="3">26 a 35</option>
+            <option value="4">36 o mas</option>
+        </select>
+        <select class="faseE" name="Estado civil actual" required>
+            <option value="">Estado civil</option>
+            <option value="1">Soltero</option>
+            <option value="2">Casado(a)</option>
+            <option value="3">Separado(a)-Divorciado(a)</option>
+            <option value="4">Viudo(a)</option>
+            <option value="5">Union libre</option>
+        </select>
+        <select class="faseE" name="contacto emergencia" id="cE" required>
+            <option value="">Parentesco contacto de emergencia</option>
+            <option value="1">Padres</option>
+            <option value="2">Esposo(a)</option>
+            <option value="3">Hermano(a)</option>
+            <option value="4">Hijo(a)</option>
+            <option value="5">Abuelo(a)</option>
+            <option value="6">Tío(a)</option>
+            <option value="7">Amigo(a)</option>
+            <option value="8">Otros</option>
+            <option value="9" id="nce">No tengo contacto de emergencia</option>
+        </select>
+        <br>
+        <br>
+        <label for="NombreA">Nombre y apellidos de contacto de emergencia:</label>
+        <input class="faseE" type="text" id="nombreA"name="emergencia" value="" size="30" required>
+        <br>
+        <br>
+        <label for="CelularA">Numero celular del contacto de emergencia:</label> 
+        <input class="faseE" type="number" name="numeroA"id="celularA" required> 
+    </article>
+    
+    
+    
+        <article>
+            <H3>Academico</H3><hr>
+        
+            <label for="Pregunta1">¿Iniciaste tu carrera inmediatamente después de terminar el colegio?</label>
+            <label style="margin-left: 15px;" for="si">Si</label>
+            <input class="radioButtonA" type="radio" name="P13" required >
+            <label for="No">No</label>
+            <input class="radioButtonA" name="P13" type="radio" required><br><br>
+
+
+            <select class="faseA" name="Motivo carrera" required>
+                <option value="">¿Cuál fue el motivo por el cual no iniciaste tu carrera inmediatamente despues de finalizar el colegio?</option>
+                <option value="1">Comence a trabajar </option>
+                <option value="2">Falta de recursos económicos</option>
+                <option value="3">Me tomo tiempo pensar y decidir mi carrera</option>
+                <option value="4">Estuve de viaje</option>
+                <option value="5">Presté servicio militar</option>
+                <option value="6">Realice y culminé otros estudios</option>
+                <option value="7">Realice otros estudios, pero no los culminé</option>
+                <option value="8">Otros</option>
+            </select><br><br>
+
+           <label for="tdoc">¿Tienes un lugar determinado para estudiar?</label>
+            <label style="margin-left: 15px;"  for="si">Si</label>
+            <input class="radioButtonA" type="radio"  name="P15" required>
+            <label for="No">No</label>
+            <input class="radioButtonA" type="radio"  name="P15" required><br>
+
+        </article>
+        
+    </Div>
+ </form>
+</div>
+<section class="paginacion">
+    <ul>
+        <li><a href="../Formulario/Formulario.html">1</a> </li>
+        <li><a  href="../Formulario/Page1.html">2</a></li>
+        <li><a href="../Formulario/page2.html">3</a></li>
+        <li><a href="../Formulario/Page3.html">4</a></li>
+    </ul>
+
+   </section>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="./Script/alerta.js"></script>
+<script src="./Script/privacidad.js"></script>
+</body>
+</html>
